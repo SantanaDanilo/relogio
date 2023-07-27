@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.borda {
+    border: 4px solid white;
+    background-color: black;
+}
+
+.relogio {
+    font-size: 5rem;
+    font-family: Digital-7, Arial, sans-serif;
+    border: 5px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: red;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .relogio {
+        display: flex;
+    }
+}
